@@ -8,10 +8,10 @@ public class Main {
     public static final List<String> products = new ArrayList<>();
 
     public static void main(String[] args) {
-        boolean isWork = true;
+        boolean work = true;
 
 
-        while (isWork) {
+        while (work) {
             System.out.println("Выберите операцию: " + " \n " +
                     "1. Добавить" + " \n " + "2. Показать" + " \n " + "3. Удалить" + " \n "
                     + "4. Поиск" + " \n " + "0. Выход");
@@ -69,7 +69,7 @@ public class Main {
                     break;
 
                 case 0:
-                    isWork = false;
+                    work = false;
                     break;
 
                 default:
